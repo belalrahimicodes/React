@@ -6,3 +6,17 @@ nav ul{
   display: flex;
   justify-content: space-evenly;
 }
+.card{
+  display: inline-block;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px 10px;
+  max-width: 300px;
+  box-shadow: 3px 3px 3px hsl(120, 61%, 61%);
+  margin: 10px;
+}
+.card img{
+  width: 200px;
+  border-radius: 10%;
+}
