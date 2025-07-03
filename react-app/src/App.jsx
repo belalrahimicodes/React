@@ -5,12 +5,14 @@ import Card from "./Card";
 import Button from "./Button/Button";
 import Button2 from "./Button2";
 import Teachers from "./Teachers";
+import Greeting from "./Greeting";
 
 function App() {
 
   return(
     <>
       <Header />
+      <Greeting loggedIn = {true} user="Belal" />
       <Players />
       <Card />
       <Card />
