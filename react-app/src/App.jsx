@@ -7,6 +7,7 @@ import Button2 from "./Button2";
 import Teachers from "./Teachers";
 import Greeting from "./Greeting";
 import List from "./List";
+import ClickEvents from "./ClickEvents";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Teachers name="Alex" lastName="Schmidt" age={23} />
       <Teachers name="John" lastName="Johnny" age={25} />
       <List />
+      <ClickEvents />
       <Footer />
     </>
   );
