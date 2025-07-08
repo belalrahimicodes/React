@@ -8,6 +8,8 @@ import Teachers from "./Teachers";
 import Greeting from "./Greeting";
 import List from "./List";
 import ClickEvents from "./ClickEvents";
+import ClickEvents2 from "./ClickEvents2";
+
 
 function App() {
 
@@ -24,6 +26,7 @@ function App() {
       <Teachers name="John" lastName="Johnny" age={25} />
       <List />
       <ClickEvents />
+      <ClickEvents2 />
       <Footer />
     </>
   );
