@@ -26,3 +26,22 @@ nav ul{
   margin: 10px;
   padding: 5px;
 }
+.count{
+  text-align: center;
+}
+.count button{
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(to right, lightgreen, black);
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+.count-text{
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+}

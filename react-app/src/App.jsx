@@ -9,7 +9,8 @@ import Greeting from "./Greeting";
 import List from "./List";
 import ClickEvents from "./ClickEvents";
 import ClickEvents2 from "./ClickEvents2";
-
+import UzeState from "./UzeState";
+import Counter from "./Counter";
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
       <List />
       <ClickEvents />
       <ClickEvents2 />
+      <UzeState />
+      <Counter />
       <Footer />
     </>
   );
